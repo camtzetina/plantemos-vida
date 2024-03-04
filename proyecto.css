@@ -1,0 +1,81 @@
+#menu {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#drop {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    font-style: normal;
+    background-color: #f1e8a7
+}
+#somos{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 450;
+    font-style: normal;
+    text-align: center;
+}
+
+#texto{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+#imagen{   
+    text-align: center 
+}
+#head{
+    text-align: "center";
+    background-color: #61b292;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 25px;
+    font-style: normal;
+}
+#danger{
+    text-align: "center";
+    background-color: #f8b595;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 20px;
+    font-style: normal;
+    border-radius: 25px;
+    border: 2px solid #d86864
+}
+#noticia{
+    text-align: "center";
+    background-color: #61b292;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 25px;
+    font-style: normal;
+}
+#contacto{
+    font-family:"Rubik Mono One", monospace;
+    background-color: #61b292;
+    font-size: 50px;
+    font-style: normal;
+    border-radius: 25px;
+    border: 2px
+}
+footer{
+    font-family:"Rubik Mono One", monospace;
+    background-color: #61b292;
+    font-size: 50px;
+    font-style: normal;
+}
+.link:link {
+    color: #21825c;
+}
+
+.link:visited {
+    color: #295f4e; 
+}
+
+.link:hover {
+    background-color: #61b292;
+}
+
+
