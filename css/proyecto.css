@@ -55,7 +55,7 @@
 #contacto{
     font-family:"Rubik Mono One", monospace;
     background-color: #61b292;
-    font-size: 50px;
+    font-size: 30px;
     font-style: normal;
     border-radius: 25px;
     border: 2px
@@ -63,7 +63,7 @@
 footer{
     font-family:"Rubik Mono One", monospace;
     background-color: #61b292;
-    font-size: 50px;
+    font-size: 30px;
     font-style: normal;
 }
 .link:link {
