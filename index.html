@@ -19,7 +19,7 @@
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <body style="background-color:#aed09e;">
-  <!--encabezado-->
+  <!--MENÚ-->
   <nav style="background-color: #f1e8a7" class="navbar navbar-expand">
     <div class="container-fluid">
       <a class="navbar-brand d-none d-md-block">
@@ -29,19 +29,21 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a id="menu" class="nav-link active" aria-current="page" href="index.html" ;>Inicio</a>
+            <a id="menu" class="nav-link" href="index.html" ;>Inicio</a>
           </li>
           <li class="nav-item">
             <a id="menu" class="nav-link" href="nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item dropdown">
-            <a id="menu" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            <a id="menu" class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Servicios
             </a>
             <ul id="drop" class="dropdown-menu">
               <li><a id="drop" class="dropdown-item" href="adopción.html">Adopción</a></li>
-              <li><a id="drop" class="dropdown-item" href="poda.html">Poda Moderada</a></li>
+              <li><a id="drop" class="dropdown-item" aria-current="page" href="poda.html">Poda
+                  Moderada</a></li>
+              <li><a id="drop" class="dropdown-item" aria-current="page" href="galería.html">Galería</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -51,14 +53,29 @@
       </div>
     </div>
   </nav>
+  <!--TEXTO-->
   <div class="container-fluid">
     <div id="head" class="row justify-content-center">
       <div class="col-12 pt-3">
-        <p style="text-align: center;">Te damos la bienvenida a la página oficial de nuestro programa:<br></p>
+        <p style="text-align: center;">Te doy la bienvenida a la página oficial de:<br></p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col m-5 text-center">
+      <div class="col-12 col-md-6 m-3 text-center">
         <img src="img/logotipo.png" class="img-fluid" width="800px">
       </div>
+      <div id="texto-inicio" class="col-10 m-3 mb-4 pt-3">
+        <p style="text-align: center;">Me llamo Camila y te invito a recorrer mi página WEB donde encontrarás
+          información sobre el programa que he creado e incluso podrás
+          comunicarte conmigo desde dónde estés.</p>
+        <h1 style="text-align: center;">¿Qué esperas?</h1>
+        <p style="text-align: center;">
+          Conoce más acerca de nuestro trabajo y anímate a formar parte
+          de él.
+        </p>
+      </div>
     </div>
+  </div>
+</body>
+
+</html>
